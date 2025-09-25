@@ -1,0 +1,68 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (optionnel, décommente si tu veux inclure .vscode/)
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/lib/generated_plugin_registrant.dart
+/coverage/
+
+# Android
+/android/.gradle/
+/android/captures/
+/android/gradlew
+/android/gradlew.bat
+/android/local.properties
+/android/key.properties
+/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+
+# iOS
+/ios/.generated/
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/.last_build_id
+/ios/Runner.xcworkspace/
+/ios/Runner.xcodeproj/project.xcworkspace/
+/ios/Runner/GeneratedPluginRegistrant.*
+/ios/Runner/Debug.xcconfig
+/ios/Runner/Release.xcconfig
+/ios/Runner/Assets.xcassets/LaunchImage.imageset/
+/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+/ios/.symlinks/
+/ios/Runner.xcodeproj/xcuserdata/
+
+# Symbolication and Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Sensitive files
+.env
+key.jks
+*.keystore
+/android/app/google-services.json  # Si Firebase est utilisé
+/ios/Runner/GoogleService-Info.plist  # Si Firebase est utilisé
