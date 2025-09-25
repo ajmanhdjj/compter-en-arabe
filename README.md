@@ -1,16 +1,21 @@
-# compter
+# Compter en Arabe
+Une application mobile Flutter pour apprendre à compter en arabe.
 
-A new Flutter project.
+## Prérequis
+- Flutter SDK (>= 3.0.0)
+- Android Studio ou Xcode (pour iOS)
+- Un émulateur ou appareil physique
 
-## Getting Started
+## Installation
+1. Clonez le dépôt : `git clone https://github.com/ajmanhdjj/compter-en-arabe.git`
+2. Naviguez dans le dossier : `cd compter-en-arabe`
+3. Installez les dépendances : `flutter pub get`
+4. Lancez l’app : `flutter run`
 
-This project is a starting point for a Flutter application.
+## Utilisation
+- Interface intuitive pour apprendre les chiffres en arabe.
+- [Ajoute des détails sur les fonctionnalités, ex. : "Exercices interactifs pour pratiquer les nombres."]
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Déploiement
+- Android : `flutter build apk --release`
+- iOS : `flutter build ios --release`
